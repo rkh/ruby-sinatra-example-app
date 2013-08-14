@@ -1,0 +1,9 @@
+language: ruby
+script: "true"
+deploy:
+  provider: cloudcontrol
+  email: konstantin@travis-ci.org
+  password:
+    secure: "F7Aoid2Auhuen0nb0yrfjOys7GsarS97ANy8iydBvVzxYCKXn2aBgIwXIaAsaxbRFs7u/7dLqmhvjlQbdal5uUyFc0cmXyhz7osVDhbVZYEZ9LSEfKU5ime0dySsnIPOkfS1XTswr9vDMnmIm+PuX5+npdiKJfK7gfBgfWJOLSk="
+  deployment: myfoo/default
+  edge: true
